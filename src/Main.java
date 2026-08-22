@@ -15,7 +15,7 @@ public class Main {
     }
 
     public static void task1 () {
-    System.out.printf("Task 1");
+    System.out.println("Task 1");
     byte mice = 101;
     System.out.println("Значение переменной mice с типом целочисленные равно " + mice);
 short hamsters = 32;
@@ -29,5 +29,41 @@ System.out.println("Значение переменной rabbits с типом 
 double pigs = 465.234567;
 System.out.println("Значение переменной pigs с типом с плавающей точкой равно "+ pigs);
     }
+    public static void task2 () {
+        System.out.println("Task 2");
+        float a = 27.12f;
+        long b = 987678965549L;
+        double c = 2.786;
+        int d = 569;
+        short e = -159;
+        int f = 27897;
+        byte g = 67;
+    }
+    public static void task3 () {
+        System.out.println("Task 3");
+        byte pupilsOfLP = 23;
+        byte pupilsOfAS = 27;
+        byte pupilsOfEA = 30;
+        short totalPaper = 480;
+        int totalPupils = pupilsOfLP + pupilsOfAS + pupilsOfEA;
+        int paperPerPupil = totalPaper / totalPupils;
+        System.out.println("На каждого ученика рассчитано " + paperPerPupil + " листов бумаги.");
 
+    }
+    public static void task4 () {
+        System.out.println("Task 4");
+    }
+    public static void task5 () {
+        System.out.println("Task 5");
+    }
+    public static void task6 () {
+        System.out.println("Task 6");
+    }
+    public static void task7 () {
+        System.out.println("Task 7");
+    }
+    public static void task8 () {
+        System.out.println("Task 8");
+    }
 }
+
