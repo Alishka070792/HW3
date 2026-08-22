@@ -95,7 +95,7 @@ public class Main {
         short eggs = 4 * 70;
         short breakfast = (short) (bananas + milk + iceCream + eggs);
         float resultKg = (float) (breakfast * 0.001);
-        System.out.println(resultKg);
+        System.out.println("Вес завтрака составляет " + resultKg + " кг.");
 
     }
 
