@@ -102,6 +102,7 @@ public class Main {
         System.out.println(averageDays1);
         byte averageDays2 = (byte) (totalLossWeightGr / 500);
         System.out.println(averageDays2);
+        byte averageDays3 = (byte) ((averageDays1 + averageDays2) / 2);
     }
 
     public static void task8() {
@@ -109,13 +110,13 @@ public class Main {
         int salaryMasha = 67760;
         int salaryDenis = 83690;
         int salaryKristina = 76230;
-        double bonusMasha = salaryMasha * 0.1;
-        double incomeMasha = salaryMasha + bonusMasha;
-        double differencePerYearMasha = bonusMasha * 12;
+        int bonusMasha =(int) (salaryMasha * 0.1);
+        int incomeMasha = salaryMasha + bonusMasha;
+        int differencePerYearMasha = bonusMasha * 12;
         System.out.println("Маша теперь получает " + incomeMasha + " рублей. Годовой доход вырос на " + differencePerYearMasha + " рублей.");
-        double bonusDenis = salaryDenis * 0.01;
-        double incomeDenis = salaryDenis + bonusDenis;
-        double differencePerYearDenis = bonusDenis * 12;
+        int bonusDenis =(int) (salaryDenis * 0.1);
+        int incomeDenis = salaryDenis + bonusDenis;
+        int differencePerYearDenis = bonusDenis * 12;
         System.out.println("Денис теперь получает " + incomeDenis + " рублей. Годовой доход вырос на " + differencePerYearDenis + " рублей.");
         double bonusKristina = salaryKristina * 0.1;
         double incomeKristina = salaryKristina + bonusKristina;
