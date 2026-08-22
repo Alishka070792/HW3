@@ -14,22 +14,23 @@ public class Main {
         task8();
     }
 
-    public static void task1 () {
-    System.out.println("Task 1");
-    byte mice = 101;
-    System.out.println("Значение переменной mice с типом целочисленные равно " + mice);
-short hamsters = 32;
-System.out.println("Значение переменной hamsters с типом целочисленные равно " + hamsters);
-int hedgehogs = 563;
-System.out.println("Значение переменной hedgehogs с типом целочисленные равно " + hedgehogs);
-long gophers = 1_234_567_890L;
-System.out.println("Значение переменной gophers с типом целочисленные равно " + gophers);
-float rabbits = 6.7f;
-System.out.println("Значение переменной rabbits с типом с плавающей точкой равно " + rabbits);
-double pigs = 465.234567;
-System.out.println("Значение переменной pigs с типом с плавающей точкой равно "+ pigs);
+    public static void task1() {
+        System.out.println("Task 1");
+        byte mice = 101;
+        System.out.println("Значение переменной mice с типом целочисленные равно " + mice);
+        short hamsters = 32;
+        System.out.println("Значение переменной hamsters с типом целочисленные равно " + hamsters);
+        int hedgehogs = 563;
+        System.out.println("Значение переменной hedgehogs с типом целочисленные равно " + hedgehogs);
+        long gophers = 1_234_567_890L;
+        System.out.println("Значение переменной gophers с типом целочисленные равно " + gophers);
+        float rabbits = 6.7f;
+        System.out.println("Значение переменной rabbits с типом с плавающей точкой равно " + rabbits);
+        double pigs = 465.234567;
+        System.out.println("Значение переменной pigs с типом с плавающей точкой равно " + pigs);
     }
-    public static void task2 () {
+
+    public static void task2() {
         System.out.println("Task 2");
         float a = 27.12f;
         long b = 987678965549L;
@@ -39,31 +40,34 @@ System.out.println("Значение переменной pigs с типом с 
         int f = 27897;
         byte g = 67;
     }
-    public static void task3 () {
+
+    public static void task3() {
         System.out.println("Task 3");
         byte pupilsOfLP = 23;
         byte pupilsOfAS = 27;
         byte pupilsOfEA = 30;
         short totalPaper = 480;
-        short totalPupils =(short) (pupilsOfLP + pupilsOfAS + pupilsOfEA);
-        byte paperPerPupil =(byte) (totalPaper / totalPupils);
+        short totalPupils = (short) (pupilsOfLP + pupilsOfAS + pupilsOfEA);
+        byte paperPerPupil = (byte) (totalPaper / totalPupils);
         System.out.println("На каждого ученика рассчитано " + paperPerPupil + " листов бумаги.");
 
     }
-    public static void task4 () {
+
+    public static void task4() {
         System.out.println("Task 4");
-byte bottlesPerTwoMinutes = 16;
-int bottlePerOneMinute = (short) bottlesPerTwoMinutes/2;
-int PerTwentyMinutes = bottlePerOneMinute * 20;
-System.out.println("За 20 минут машина произвела " + PerTwentyMinutes + " штук бутылок." );
-int bottlePerDay = bottlePerOneMinute * 1440;
-System.out.println("За день машина произвела " + bottlePerDay + " штук бутылок.");
-int bottleThreeDays = bottlePerDay * 3;
-System.out.println("За три дня машина произвела " + bottleThreeDays + " штук бутылок.");
-long bottlesThreeMonths = bottlePerDay * 90;
-System.out.println("За три месяца машина произвела " + bottlesThreeMonths + " штук бутылок.");
+        byte bottlesPerTwoMinutes = 16;
+        int bottlePerOneMinute = (short) bottlesPerTwoMinutes / 2;
+        int PerTwentyMinutes = bottlePerOneMinute * 20;
+        System.out.println("За 20 минут машина произвела " + PerTwentyMinutes + " штук бутылок.");
+        int bottlePerDay = bottlePerOneMinute * 1440;
+        System.out.println("За день машина произвела " + bottlePerDay + " штук бутылок.");
+        int bottleThreeDays = bottlePerDay * 3;
+        System.out.println("За три дня машина произвела " + bottleThreeDays + " штук бутылок.");
+        long bottlesThreeMonths = bottlePerDay * 90;
+        System.out.println("За три месяца машина произвела " + bottlesThreeMonths + " штук бутылок.");
     }
-    public static void task5 () {
+
+    public static void task5() {
         System.out.println("Task 5");
         byte painters = 120;
         byte whitePerClass = 2;
@@ -75,14 +79,51 @@ System.out.println("За три месяца машина произвела " +
         System.out.println("В школе, где " + amountOfClasses + " классов, нужно " + totalWhite + " банок белой краски и " + totalBrown + " банок коричневой краски.");
 
     }
-    public static void task6 () {
+
+    public static void task6() {
         System.out.println("Task 6");
+        short bananas = 5 * 80;
+        short milk = 2 * 105;
+        short iceCream = 2 * 100;
+        short eggs = 4 * 70;
+        short breakfast = (short) (bananas + milk + iceCream + eggs);
+        float resultKg = (float) (breakfast * 0.001);
+        System.out.println(resultKg);
+
     }
-    public static void task7 () {
+
+    public static void task7() {
         System.out.println("Task 7");
+        short diet1 = 250;
+        short diet2 = 500;
+        short totalLossWeightKg = 7;
+        float totalLossWeightGr = (float) (7 / 0.001);
+        byte averageDays1 = (byte) (totalLossWeightGr / 250);
+        System.out.println(averageDays1);
+        byte averageDays2 = (byte) (totalLossWeightGr / 500);
+        System.out.println(averageDays2);
     }
-    public static void task8 () {
+
+    public static void task8() {
         System.out.println("Task 8");
+        int salaryMasha = 67760;
+        int salaryDenis = 83690;
+        int salaryKristina = 76230;
+        double bonusMasha = salaryMasha * 0.1;
+        double incomeMasha = salaryMasha + bonusMasha;
+        double differencePerYearMasha = bonusMasha * 12;
+        System.out.println("Маша теперь получает " + incomeMasha + " рублей. Годовой доход вырос на " + differencePerYearMasha + " рублей.");
+        double bonusDenis = salaryDenis * 0.01;
+        double incomeDenis = salaryDenis + bonusDenis;
+        double differencePerYearDenis = bonusDenis * 12;
+        System.out.println("Денис теперь получает " + incomeDenis + " рублей. Годовой доход вырос на " + differencePerYearDenis + " рублей.");
+        double bonusKristina = salaryKristina * 0.1;
+        double incomeKristina = salaryKristina + bonusKristina;
+        double differencePerYearKristina = bonusKristina * 12;
+        System.out.println("Кристина теперь получает " + incomeKristina + " рублей. Годовой доход вырос на " + differencePerYearKristina + " рублей.");
+
     }
 }
+
+
 
