@@ -52,7 +52,16 @@ System.out.println("Значение переменной pigs с типом с 
     }
     public static void task4 () {
         System.out.println("Task 4");
-
+byte bottlesPerTwoMinutes = 16;
+int bottlePerOneMinute = (byte) bottlesPerTwoMinutes/2;
+int PerTwentyMinutes = bottlePerOneMinute * 20;
+System.out.println("За 20 минут машина произвела " + PerTwentyMinutes + " штук бутылок." );
+int bottlePerDay = bottlePerOneMinute * 1440;
+System.out.println("За день машина произвела " + bottlePerDay + " штук бутылок.");
+int bottleThreeDays = bottlePerDay * 3;
+System.out.println("За три дня машина произвела " + bottleThreeDays + " штук бутылок.");
+long bottlesThreeMonths = bottlePerDay * 90;
+System.out.println("За три месяца машина произвела " + bottlesThreeMonths + " штук бутылок.");
     }
     public static void task5 () {
         System.out.println("Task 5");
