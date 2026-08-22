@@ -105,11 +105,12 @@ public class Main {
         short diet2 = 500;
         short totalLossWeightKg = 7;
         float totalLossWeightGr = (float) (7 / 0.001);
-        byte averageDays1 = (byte) (totalLossWeightGr / 250);
-        System.out.println(averageDays1);
-        byte averageDays2 = (byte) (totalLossWeightGr / 500);
-        System.out.println(averageDays2);
-        byte averageDays3 = (byte) ((averageDays1 + averageDays2) / 2);
+        byte maxDays = (byte) (totalLossWeightGr / 250);
+        System.out.println("Если спортсмен будет худеть на " + diet1 + " грамм в день, то на похудение уйдет " + maxDays + " дней.");
+        byte minDays = (byte) (totalLossWeightGr / 500);
+        System.out.println("Если спортсмен будет худеть на "  + diet2 + " грамм в день, то на похудение уйдет " + minDays + " дней.");
+        byte averageDays = (byte) ((maxDays + minDays) / 2);
+        System.out.println("В среднем спортсмену нужно " + averageDays + " дней.");
     }
 
     public static void task8() {
