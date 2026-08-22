@@ -33,12 +33,19 @@ public class Main {
     public static void task2() {
         System.out.println("Task 2");
         float a = 27.12f;
+        System.out.println(a);
         long b = 987678965549L;
+        System.out.println(b);
         double c = 2.786;
+        System.out.println(c);
         int d = 569;
+        System.out.println(d);
         short e = -159;
+        System.out.println(e);
         int f = 27897;
+        System.out.println(f);
         byte g = 67;
+        System.out.println(g);
     }
 
     public static void task3() {
@@ -63,8 +70,8 @@ public class Main {
         System.out.println("За день машина произвела " + bottlePerDay + " штук бутылок.");
         int bottleThreeDays = bottlePerDay * 3;
         System.out.println("За три дня машина произвела " + bottleThreeDays + " штук бутылок.");
-        long bottlesThreeMonths = bottlePerDay * 90;
-        System.out.println("За три месяца машина произвела " + bottlesThreeMonths + " штук бутылок.");
+        int bottlesPerMonth = bottlePerDay * 30;
+        System.out.println("За месяц машина произвела " + bottlesPerMonth + " штук бутылок.");
     }
 
     public static void task5() {
