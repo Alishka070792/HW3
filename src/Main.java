@@ -52,6 +52,7 @@ System.out.println("Значение переменной pigs с типом с 
     }
     public static void task4 () {
         System.out.println("Task 4");
+
     }
     public static void task5 () {
         System.out.println("Task 5");
