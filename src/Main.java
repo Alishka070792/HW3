@@ -45,15 +45,15 @@ System.out.println("Значение переменной pigs с типом с 
         byte pupilsOfAS = 27;
         byte pupilsOfEA = 30;
         short totalPaper = 480;
-        int totalPupils = pupilsOfLP + pupilsOfAS + pupilsOfEA;
-        int paperPerPupil = totalPaper / totalPupils;
+        short totalPupils =(short) (pupilsOfLP + pupilsOfAS + pupilsOfEA);
+        byte paperPerPupil =(byte) (totalPaper / totalPupils);
         System.out.println("На каждого ученика рассчитано " + paperPerPupil + " листов бумаги.");
 
     }
     public static void task4 () {
         System.out.println("Task 4");
 byte bottlesPerTwoMinutes = 16;
-int bottlePerOneMinute = (byte) bottlesPerTwoMinutes/2;
+int bottlePerOneMinute = (short) bottlesPerTwoMinutes/2;
 int PerTwentyMinutes = bottlePerOneMinute * 20;
 System.out.println("За 20 минут машина произвела " + PerTwentyMinutes + " штук бутылок." );
 int bottlePerDay = bottlePerOneMinute * 1440;
@@ -65,6 +65,15 @@ System.out.println("За три месяца машина произвела " +
     }
     public static void task5 () {
         System.out.println("Task 5");
+        byte painters = 120;
+        byte whitePerClass = 2;
+        byte brownPerClass = 4;
+        byte totalPerClass = (byte) (whitePerClass + brownPerClass);
+        byte amountOfClasses = (byte) (painters / totalPerClass);
+        byte totalWhite = (byte) (amountOfClasses * whitePerClass);
+        byte totalBrown = (byte) (amountOfClasses * brownPerClass);
+        System.out.println("В школе, где " + amountOfClasses + " классов, нужно " + totalWhite + " банок белой краски и " + totalBrown + " банок коричневой краски.");
+
     }
     public static void task6 () {
         System.out.println("Task 6");
