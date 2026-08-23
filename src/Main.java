@@ -104,7 +104,7 @@ public class Main {
         short diet1 = 250;
         short diet2 = 500;
         short totalLossWeightKg = 7;
-        float totalLossWeightGr = (float) (7 / 0.001);
+        short totalLossWeightGr = (short) (7  * 1000);
         byte maxDays = (byte) (totalLossWeightGr / 250);
         System.out.println("Если спортсмен будет худеть на " + diet1 + " грамм в день, то на похудение уйдет " + maxDays + " дней.");
         byte minDays = (byte) (totalLossWeightGr / 500);
