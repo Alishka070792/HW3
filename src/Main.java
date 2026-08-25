@@ -32,13 +32,13 @@ public class Main {
 
     public static void task2() {
         System.out.println("Task 2");
-        float a = 27.12f;
+        double a = 27.12;
         System.out.println(a);
         long b = 987678965549L;
         System.out.println(b);
-        double c = 2.786;
+        float c = 2.786f;
         System.out.println(c);
-        int d = 569;
+        short d = 569;
         System.out.println(d);
         short e = -159;
         System.out.println(e);
@@ -64,8 +64,8 @@ public class Main {
         System.out.println("Task 4");
         byte bottlesPerTwoMinutes = 16;
         int bottlePerOneMinute = (short) bottlesPerTwoMinutes / 2;
-        int PerTwentyMinutes = bottlePerOneMinute * 20;
-        System.out.println("За 20 минут машина произвела " + PerTwentyMinutes + " штук бутылок.");
+        int perTwentyMinutes = bottlePerOneMinute * 20;
+        System.out.println("За 20 минут машина произвела " + perTwentyMinutes + " штук бутылок.");
         int bottlePerDay = bottlePerOneMinute * 1440;
         System.out.println("За день машина произвела " + bottlePerDay + " штук бутылок.");
         int bottleThreeDays = bottlePerDay * 3;
@@ -105,11 +105,11 @@ public class Main {
         short diet2 = 500;
         short totalLossWeightKg = 7;
         short totalLossWeightGr = (short) (7  * 1000);
-        byte maxDays = (byte) (totalLossWeightGr / 250);
+        short maxDays = (short) (totalLossWeightGr / 250);
         System.out.println("Если спортсмен будет худеть на " + diet1 + " грамм в день, то на похудение уйдет " + maxDays + " дней.");
-        byte minDays = (byte) (totalLossWeightGr / 500);
+        short minDays = (short) (totalLossWeightGr / 500);
         System.out.println("Если спортсмен будет худеть на "  + diet2 + " грамм в день, то на похудение уйдет " + minDays + " дней.");
-        byte averageDays = (byte) ((maxDays + minDays) / 2);
+        short averageDays = (short) ((maxDays + minDays) / 2);
         System.out.println("В среднем спортсмену нужно " + averageDays + " дней.");
     }
 
